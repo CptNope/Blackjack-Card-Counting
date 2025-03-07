@@ -1,0 +1,119 @@
+body {
+font-family: Arial, sans-serif;
+background: #2c3e50;
+color: #ecf0f1;
+margin: 0;
+padding: 20px;
+text-align: center;
+}
+.game-container {
+background: #34495e;
+padding: 20px;
+border-radius: 8px;
+max-width: 950px;
+margin: 0 auto;
+}
+/* Dropdown styling */
+.system-select {
+margin-bottom: 20px;
+padding: 10px;
+background: #2980b9;
+border-radius: 4px;
+display: inline-block;
+}
+.system-select select {
+padding: 5px;
+font-size: 16px;
+}
+.betting-controls {
+margin-bottom: 20px;
+padding: 10px;
+background: #16a085;
+border-radius: 4px;
+color: #fff;
+}
+.betting-controls input {
+padding: 5px;
+font-size: 16px;
+width: 80px;
+}
+.betting-controls button {
+padding: 5px 10px;
+font-size: 16px;
+margin-left: 10px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+background: #27ae60;
+color: #fff;
+}
+.game-info {
+display: flex;
+justify-content: space-around;
+margin: 20px 0;
+flex-wrap: wrap;
+}
+.section {
+flex: 1;
+min-width: 250px;
+}
+.cards {
+min-height: 50px;
+margin-bottom: 10px;
+}
+.card {
+display: inline-block;
+background: #fff;
+color: #000;
+border: 1px solid #000;
+border-radius: 4px;
+width: 40px;
+height: 60px;
+line-height: 60px;
+margin: 2px;
+font-weight: bold;
+}
+.buttons {
+margin: 20px 0;
+}
+.buttons button {
+padding: 10px 20px;
+margin: 5px;
+font-size: 16px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+#deal { background: #27ae60; color: #fff; }
+#hit { background: #2980b9; color: #fff; }
+#stand { background: #c0392b; color: #fff; }
+#toggle-debug { background: #8e44ad; color: #fff; }
+.message { font-size: 20px; margin-top: 20px; }
+/* Card Counting Info Styles */
+.debug {
+background: #f39c12;
+color: #2c3e50;
+padding: 10px;
+margin-top: 20px;
+border-radius: 4px;
+text-align: left;
+font-size: 14px;
+}
+table { width: 100%; border-collapse: collapse; }
+table, th, td { border: 1px solid #2c3e50; }
+th, td { padding: 5px; text-align: center; }
+/* Explanation, Education, Disclaimer & Simulation Styles */
+.explanation, .education, .disclaimer, .simulation {
+background: #f39c12;
+color: #2c3e50;
+padding: 10px;
+margin-top: 20px;
+border-radius: 4px;
+text-align: left;
+font-size: 14px;
+}
+.education h2, .disclaimer h2, .simulation h2 { margin-top: 0; }
+.education ul, .disclaimer ul { margin: 10px 0; padding-left: 20px; }
+.education p, .disclaimer p, .simulation p { margin: 10px 0; line-height: 1.5; }
+.simulation input { padding: 5px; font-size: 16px; width: 100px; }
+.simulation button { padding: 5px 10px; font-size: 16px; margin-left: 10px; border: none; border-radius: 4px; cursor: pointer; background: #27ae60; color: #fff; }
